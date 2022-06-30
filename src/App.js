@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import EventInput from './Components/EventInput';
+// import RefClassSample from './Components/RefClassSample';
+// import RefInput from './Components/RefInput';
+// import EventInputClass from './Components/EventInputClass';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <EventInputClass /> */}
+      <EventInput />
+      {/* <RefClassSample /> */}
+      {/* <RefInput /> */}
     </div>
   );
 }
